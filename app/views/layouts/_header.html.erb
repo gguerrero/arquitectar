@@ -1,0 +1,17 @@
+<header>
+  <div id="logo">
+    <%= link_to t('name'), root_path, id: 'arquitectar-logo' %>
+  </div>
+  <div id="main-menu">
+    <nav>
+      <ul>
+        <li>
+          <%= link_to t('header.values'), home_path, class: "menubutton" %>
+        </li>
+        <li>
+          <%= link_to t('header.projects'), projects_path, class: "menubutton" %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

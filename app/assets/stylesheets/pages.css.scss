@@ -1,0 +1,27 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// * { border: 1px solid; }
+
+body {
+  background: #FCEEE5;
+  margin: 0px;
+}
+
+.round {
+  -moz-border-radius:    5px;
+  -webkit-border-radius: 5px;
+  border-radius:         5px;
+}
+
+div#debug {
+  margin: 10px;
+  padding: 10px;
+  background: #d3d3d3;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 12pt;
+  color: red;
+}

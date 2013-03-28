@@ -1,0 +1,42 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  name: "Arquitectar"
+  version: "0.0.1"
+  email: "estudio@arquitectar.net"
+
+  header:
+    values: "Values"
+    projects: "Projects"
+  footer:
+    news: "News"
+    colaboration: "Colaboration"
+    contact: "Contact"
+    about: "About"
+
+  pages:
+    colaboration:
+      intro: >
+        A lo largo de los años hemos tenido la suerte de colaborar con otros 
+        profesionales también enamorados también de su labor, lo que se traduce 
+        en una dedicación y calidad que hemos podido comprobar. 
+        Esta es parte de nuestra red:

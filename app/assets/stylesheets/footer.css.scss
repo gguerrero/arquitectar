@@ -1,0 +1,35 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+footer {
+  background: #663300;
+  border-top: 3px solid #996633;
+  border-bottom: 3px solid #996633;
+  margin-top: 20px;
+  text-align: center;
+
+  div#footer-menu {
+    padding: 10px 50px 10px 50px;
+    float: none;
+
+    ul {
+      padding: 0px;
+      display: inline;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+    a.menubutton {
+      padding-top: 13px;
+      padding-bottom: 5px;
+    }
+
+    a.menubutton:hover {
+      border-radius: 0px 0px 5px 5px;
+    }
+  }
+}

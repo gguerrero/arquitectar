@@ -1,0 +1,25 @@
+<div id="contact">
+  <div id="contact-card">
+    <div class="email">
+      <%= link_to t('email'), "mailto:#{t('email')}" %>
+    </div>
+    <div class="social">
+      <%= link_to(image_tag('social/facebook.png'), "#") %>
+      <%= link_to(image_tag('social/twitter.png'),  "#") %>
+      <%= link_to(image_tag('social/googleplus.png'), "#") %>
+      <%= link_to(image_tag('social/linkedin.png'), "#") %>
+    </div>
+    <div id="vitoria-office" class="address">
+      <p class="street">C/ Badaia 26, 6A</p>
+      <p class="city">01012 Vitoria-Gasteiz, Álava</p>
+      <p class="phone">945 203 395</p>
+      <%= google_map_for "Arquitectar, Vitoria-Gasteiz", class: "map" %>
+    </div>
+    <div id="bilbao-office" class="address">
+      <p class="street">Avd. Reyes Católícos 1, 4C</p>
+      <p class="city">48012 Bilbao, Bizkaia</p>
+      <p class="phone">944 10 90 51</p>
+      <%= google_map_for "Reyes Catolicos 1, Bilbao", class: "map" %>
+    </div>
+  </div>
+</div>

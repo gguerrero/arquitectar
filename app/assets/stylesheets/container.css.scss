@@ -1,0 +1,91 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  font-family: Arial;
+  font-size: 10pt;
+  font-weight: normal;
+
+  section#content {
+    margin: 20px 35px 20px 35px;
+    border: 1px solid #5c350c;
+    border-radius: 5px;
+    min-width: 600px;
+    min-height: 620px;
+    overflow: auto;
+  }
+
+  a.menubutton {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FCEEE5;
+    text-decoration: none;
+    padding: 0em 0.3em 0em 0.3em;
+  }  
+
+  a.menubutton:hover {
+    color: #663300;
+    background-color: #FCEEE5;
+  }
+
+  div#news, div#colaboration, div#contact, div#about {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Contact Card
+#contact-card {
+  .email { 
+    padding: 10px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: #663300;
+      font-size: 2em;
+    }
+    a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .address {
+    font-size: 1.2em;
+    margin: 10px 35px 10px 35px;
+
+    .street {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .city {
+    }
+
+    .phone {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    .map {
+      border: 1px solid #663300;
+      border-radius: 5px;
+      box-shadow: 5px 5px 3px #888;
+    }
+  }
+
+  #vitoria-office.address {
+    float: left;
+  }
+
+  #bilbao-office.address {
+    float: right;
+  }
+}
