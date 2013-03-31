@@ -9,14 +9,128 @@ es:
     projects: "Proyectos"
   footer:
     news: "Actualidad"
-    colaboration: "Colaboradores"
+    collaboration: "Colaboradores"
     contact: "Contacto"
     about: "Acerca de"
 
   pages:
-    colaboration:
+    home:
+      values:
+        title: "Compromiso"
+        text: >
+          <p>En <b style="color: #630;">Arquitectar</b> entendemos nuestra profesión 
+          como facilitadores del proceso constructivo, y dirigimos nuestro esfuerzo, 
+          conocimiento y experiencia al incremento de la calidad de vida de las personas.</p>
+          <h4>“REconfortar”</h4>
+          <p>Más que rehabilitar, apostamos por la renovación, enlazando con la 
+          tradición al alargar la vida útil de la edificación y reutilizar los elementos 
+          disponibles, al tiempo que se actualiza la casa con las prestaciones y 
+          comodidades de los estándares actuales.</p>
+          <h4>Criterios</h4>
+          <ul>
+            <li>Diseño según la orientación de cada fachada</li>
+            <li>REutilizar, REparar, REponer: residuos 0</li>
+            <li>REducir consumo de agua y energía</li>
+            <li>Soluciones reversibles</li>
+            <li>Materiales saludables, de larga duración y bajo mantenimiento</li>
+            <li>Soluciones personalizadas: estudio de la opción óptima para cada usuario</li>
+          </ul>
+      team:
+        title: "Equipo"
+        text: >
+          <p>Optimizamos aquellos aspectos del CONFORT mejorables: habitabilidad, 
+          iluminación y ventilación natural, el confort acústico, la calidad del 
+          aire interior, el confort térmico o la accesibilidad, seguridad estructural,</p>
+          <h4>Metodología</h4>
+          <ul>
+            <li>Un diagnóstico técnico correcto es la base que permite al usuario 
+            participar en la actualización de su casa.</li>
+            <li>Establecer un orden de prioridades, con una estimación de costes, 
+            nos posibilita contar con un Plan de Mejora ponderado.</li>
+            <li>Las propuestas surgen desde la relectura de las preexistencias,
+            bajo una nueva mirada según los requerimientos, y ponen en valor el 
+            patrimonio existente.</li>
+          </ul>
+          <h4>Equipo</h4>
+          <p>Formamos un conjunto multidisciplinar para ofrecer asesoramiento integral 
+          técnico, económico y humano, tanto desde arquitectar como a través de la 
+          red de colaboradores que hemos creado con el pasar de los años.</p>
+          <h4>Principales integrantes</h4>
+          <h5>Arancha Guijarro Bustamante</h5>
+          <p>Coordinadora y resoinsable de <b style="color: #663300;">arquitectar</b>. 
+          Arquitecto Técnico Superior en Edificación y Rehabilitación Sostenibles, 
+          Miembro de GBCe y divulgadora.</p>
+          <p>Convencida del valor intrínseco de la ciudad como espacio de convivencia, 
+          promueve la consolidación del tejido urbano existente desde la actualización 
+          de los edificios de vivienda.</p>
+          <h5>Juan José Barrón Guinea</h5>
+          <p>Control económico, de Seguridad y Calidad. Con un estilo de comunicación 
+          asequible y directo, propicia la buena marcha del proceso desde la primera 
+          reunión con la Propiedad. Aquitecto Técnico con 21 años de experiencia en 
+          rehabilitación.</p>
+          <p>Su pasión por el proceso contructivo tiene como consecuencia lógica un 
+          exhaustivo seguimiento de la obra y una capacidad de resolución de imprevistos 
+          que agilizan el curso de los trabajos, haciendo fácil lo complicado.</p>
+          <h5>Luidi Diaz Hernando</h5>
+          <p>Soporte humano indispensable en la gestión de la REnovación. Administrativo 
+          con formación en Trabajo Social.</p>
+          <p>Más allá de facilitar la información y tramitación de ayudas y subvenciones, 
+          su capacidad de mediación es inestimable en aquellas Comunidades que lo requiran.</p>
+          <h5>Asesoramiento Financiero</h5>
+          <p>El componente económico a la hora de hacer frente a una obra de adecuación 
+          se complejiza por las diferentes circunstancias de cada miembro de una Comunidad.</p>
+          <p><b style="color: #663300;">aquitectar</b> puede gestionar desde la 
+          tradicional solución del crédito, hasta el diseño de distintas alternativsa 
+          en función de la necesidad de cada caso.</p>
+          <h5>Puesta en Obra</h5>
+          <p>Además de la elaboración de proyectos y dirección de obras, 
+          <b style="color: #663300;">aquitectar</b> también gestiona las licencias 
+          necesarias, asi como con los colegios profesionales de arquitectos y 
+          aparejadores e incluso puede llegar a ofrecer la gestión de la construcción 
+          a fin de facilitar al cliente-promotor un "llave en mano" gracias a la 
+          colaboración con distintas constructoras con las que llevamos años trabajando, 
+          de garantía y confianza plena.</p>
+      city:
+        title: "Ciudad"
+        text: >
+          <p>Porque me gusta mi barrio, la relación con los vecinos, las tiendas 
+          de toda la vida… quiero vivir aquí.</p>
+          <p>Si las viviendas quedan obsoletas, el espacio público inhabitable, 
+          el comercio cierra, el tráfico y el parking anulan el espacio y el 
+          silencio; si el barrio se degrada sólo queda marcharse.</p>
+          <p>Son posibles multitud de pequeñas intervenciones vecinales; en 
+          <b style="color: #663300;">arquitectar</b> trabajamos por la 
+          REvitalización de la ciudad existente.<p>
+          <p><i style:"color: gray;">"la ciudad no es el problema: es la 
+          solución"</i>J. Lerner</p> 
+          <h4>Revitalización de barrios</h4>
+          <ul>
+            <li>áreas vulnerables</li>
+            <li>gentrificación</li>
+          </ul>
+          <h4>“acupuntura urbana”
+          <ul>
+            <li>recuperación de manzanas interiores</li>
+            <li>“basura por flores”</li>
+            <li>“la ciudad de los ciudadanos”</li>
+          </ul>
+    collaboration:
+      title: "Colaboradores"
       intro: >
         A lo largo de los años hemos tenido la suerte de colaborar con otros 
         profesionales también enamorados también de su labor, lo que se traduce 
         en una dedicación y calidad que hemos podido comprobar. 
         Esta es parte de nuestra red:
+      structural_safety: "Seguridad Estructural"
+      thermal_comfort: "Confort Térmico"
+      acoustic_comfort: "Confort Acústico"
+      accesibility: "Accesibilidad"
+    news:
+      title: "Actualidad"
+      intro:
+    contact:
+      title: "Contacto"
+      intro:
+    about:
+      title: "Acerca de..."
+      intro:

@@ -1,12 +1,9 @@
-<footer>
-  <div id="footer-menu">
+<div id="footer" class="sticky">
+  <div id="footer-menu" class="round">
     <nav>
       <ul>
         <li>
-          <%= link_to t('footer.news'), news_path, class: "menubutton" %>
-        </li>
-        <li>
-          <%= link_to t('footer.colaboration'), colaboration_path, class: "menubutton" %>
+          <%= link_to t('footer.collaboration'), collaboration_path, class: "menubutton" %>
         </li>
         <li>
           <%= link_to t('footer.contact'), contact_path, class: "menubutton" %>
@@ -17,4 +14,4 @@
       </ul>
     </nav>
   </div>
-</footer>
+</div>

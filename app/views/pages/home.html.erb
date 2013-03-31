@@ -1,0 +1,18 @@
+<div id="home">
+  <div class="section-list">
+    <ul>
+      <li>
+        <%= link_to t('pages.home.values.title'), home_path(section: 'values') %>
+      </li>
+      <li>
+        <%= link_to t('pages.home.team.title'), home_path(section: 'team') %>
+      </li>
+        <li>
+        <%= link_to t('pages.home.city.title'), home_path(section: 'city') %>
+      </li>
+    </ul>
+  </div>
+  <div class="textbox">
+    <%= t("pages.home.#{@section}.text").html_safe %>
+  </div>
+</div>

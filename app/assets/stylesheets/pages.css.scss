@@ -2,26 +2,126 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// * { border: 1px solid; }
+// Home Info
+#home {
+  .section-list {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    border: 1px solid;
+  }
 
-body {
-  background: #FCEEE5;
-  margin: 0px;
+  .textbox {
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    width: 60%;
+    border: 1px solid;
+  }
 }
 
-.round {
-  -moz-border-radius:    5px;
-  -webkit-border-radius: 5px;
-  border-radius:         5px;
+// Collaboration
+#collaboration {
+  .intro {
+    padding: 10px;
+    font-size: 1.1em;
+  }
+
+  .sections {
+    padding: 10px;
+
+    h3 {
+      color: #630;
+      border-bottom: 1px solid;
+    }
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      display: block;
+      list-style-type: none;
+
+      li {
+        width: 100%;
+        display: inline-block;
+      }
+
+      li:nth-child(odd) a{
+        padding: 30px 0px 0px 30px;
+        float: left;
+      }
+
+      li:nth-child(even) a{
+        padding: 30px 30px 0px 30px;
+        float: right;
+      }
+    }
+
+    .left-section {
+      width: 45%;
+      float: left;
+    }
+
+    .right-section {
+      width: 45%;
+      float: right;
+    }
+  }
 }
 
-div#debug {
-  margin: 10px;
-  padding: 10px;
-  background: #d3d3d3;
-  border: 1px solid #a3a3a3;
-  border-radius: 5px;
-  font-family: monospace;
-  font-size: 12pt;
-  color: red;
+// Contact Card
+#contact-card {
+  .email { 
+    padding: 10px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: #663300;
+      font-size: 2em;
+    }
+    a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+
+  .social {
+    text-align: center;
+    img { border: none; }
+  }
+
+  .address {
+    font-size: 1.2em;
+    margin: 10px 35px 10px 35px;
+
+    .street {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .city {
+    }
+
+    .phone {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    .map {
+      border: 1px solid #663300;
+      border-radius: 5px;
+      box-shadow: 5px 5px 3px #888;
+    }
+  }
+
+  #vitoria-office.address {
+    float: left;
+  }
+
+  #bilbao-office.address {
+    float: right;
+  }
 }

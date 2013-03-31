@@ -44,6 +44,8 @@ gem 'jbuilder', '~> 1.0.1'
 group :development do
   gem 'rspec-rails'
   gem 'faker'
+  gem 'pry'
+  gem 'hirb'
 end
 
 group :test do

@@ -10,7 +10,7 @@ Arquitectar::Application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
   get 'home' => 'pages#home'
   get 'news' => 'pages#news'
-  get 'colaboration' => 'pages#colaboration'
+  get 'collaboration' => 'pages#collaboration'
   get 'contact' => 'pages#contact'
   get 'about' => 'pages#about'
 

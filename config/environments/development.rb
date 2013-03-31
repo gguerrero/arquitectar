@@ -24,4 +24,12 @@ Arquitectar::Application.configure do
 
   # Debug mode disables concatenation and preprocessing of assets.
   config.assets.debug = true
+
+  # Console configuration
+  console do
+    require 'pry'
+    require 'hirb'
+    config.console = pry
+    Hirb::View.enable
+  end
 end

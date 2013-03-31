@@ -1,0 +1,22 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#content.sticky {
+  position: relative;
+  top: 80px;
+}
+
+#content {
+  width: 980px;
+  height: 100%;
+  margin: 0px auto;
+  overflow: auto;
+  background-color: #EFF4DE;
+
+  div#news, div#collaboration, div#contact, div#about {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
