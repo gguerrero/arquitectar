@@ -5,7 +5,6 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,6 +41,7 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'debugger'
 
 group :development do
+  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'faker'
   gem 'pry'
@@ -53,4 +53,8 @@ group :test do
   gem 'webrat'
   gem 'spork'
   gem 'factory_girl_rails'
+end
+
+group :production do
+  gem 'pg'
 end
