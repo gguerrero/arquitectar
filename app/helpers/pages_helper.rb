@@ -1,4 +1,8 @@
 module PagesHelper
+  def current_section(section_name)
+    "current" if @section == section_name 
+  end
+
   def google_map_for(query, opts={})
     query.gsub!(/\s/,'+')
     content_tag(:iframe, nil, 

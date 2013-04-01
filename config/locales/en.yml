@@ -36,6 +36,53 @@ en:
 
   pages:
     home:
+      intro:
+        title: "Introduction"
+        text: >
+          <p>
+          In its commitment to the revitalization of the city, 
+          <b style="color: #532A01;">arquitectar</b> boosts renovation of residential, 
+          community spaces, facilities, shops...
+          </p>
+          <p>
+          For this, we facilitate the management of aids for the <strong>rehabilitation 
+          of buildings</strong> on <strong>neighboorhods</strong>. We propose an 
+          accurate diagnosis as the basis for an Improvement Plan, prioritized on 
+          the basis of need and the economic capacity of the moment. To do this, 
+          we start from the <strong>Technical Building Inspection</strong>, which 
+          discusses: foundations and structure / facades / thermal / supply and 
+          drainage, but in order to comfort, we encourage ITE + (+ accessibility + 
+          habitable + ventilation and natural lighting, + thermal comfort / energy 
+          saving efficiency of plants, + acoustic comfort).
+          </p>
+          <p>
+          We promote urban commerce also writing activity projects, eliminating 
+          architectural barriers, performing image enhancements (lighting projects, 
+          new distributions reusing existing furniture), local reforms, sustainable 
+          interior and optimizing resources through energy audits. The latter allows 
+          to multiply the efficiency of the facilities (schools, offices, sports 
+          facilities, markets ...) too.
+          </p>
+          <p>
+          Similarly, <b style="color: #532A01;">arquitectar</b> promotes 
+          <strong>building renovation</strong> by individuals in rural areas, 
+          since in many cases it can extend the life of the building through a 
+          change in use. In view of the pre-existing, value is placed on the 
+          property. All this without sacrificing modern conveniences and, as 
+          required, it is possible to achieve a reduction in consumption of 
+          energy, water and waste.
+          </p>
+          <p>
+          <b style="color: #532A01;">arquitectar</b> also provides 
+          <strong>technical advice on sustainability</strong>: thermography and 
+          diagnostics, design strategies, energy efficiency or building 
+          certification and training and outreach.
+          </p>
+          <p>
+          Our range centered at <strong>Vitoria</strong>, reaches: 
+          <strong>Bilbao-Bizkaia, Donostia-Gipuzkoa, Logroño, La Rioja, 
+          Pamplona-Navarra, ​​Burgos</strong> and even <strong>Zaragoza</strong>.
+          </p>
       values:
         title: "Values"
         text: >
@@ -78,12 +125,21 @@ en:
           through the network of partners we have created with the passing of time.</p>
           <hr>
           <h4>Members</h4>
+          <div style="height:160px;padding:8px 0px;">
+          <div style="width:20%;float:left;">
+          <img class="round shadow border" src="/assets/members/arancha_guijarro_bustamante.png">
+          </div>
+          <div style="width:80%;float:left;">
           <h5>Arancha Guijarro Bustamante</h5>
           <p>CEO of <b style="color: #532A01;">arquitectar</b>. Higher degree in 
           Architecture, master in Sustainable Rehabilitation, Member of GBCe and 
           disseminator.</p>
           <p>Convinced of the intrinsic value of the city as a living space, promotes 
           the consolidation of existing urban fabric from updating residential buildings.</p>
+          </div>
+          </div>
+          <div style="height:210px;padding:8px 0px;">
+          <div style="width:75%;float:left;">
           <h5>Juan José Barrón Guinea</h5>
           <p>Accountant, Quality and Safety responsible. Affordable and direct 
           communication stylish, promotes the smooth running of the process from 
@@ -92,11 +148,23 @@ en:
           <p>His passion for the builder process makes him to have a thorough 
           monitoring of the work and an ability to solve unforeseen streamline 
           the course of the work, making the complicated simple.</p>
-          <h5>Luidi Hernando Diaz</h5>
+          </div>
+          <div style="width:20%;padding-left: 10px;float:left;">
+          <img class="round shadow border" src="/assets/members/juan_jose_barron_guinea.png">
+          </div>
+          </div>
+          <div style="height:160px;padding:8px 0px;">
+          <div style="width:22%;float:left;">
+          <img class="round shadow border" src="/assets/members/ludi_diaz_hernando.png">
+          </div>
+          <div style="width:78%;float:left;">
+          <h5>Ludi Diaz Hernando</h5>
           <p>Indispensable human support in managing the renovation. Administrative 
           trained in social work.</p>
           <p>Beyond providing information and processing of grants and subsidies, 
           their mediation skills is invaluable in those communities that may require any.</p>
+          </div>
+          </div>
           <h5>Financial Advice</h5>
           <p>Economic component when dealing with a work of adaptation becomes more 
           complex because the circumstances of each member of a community.</p>

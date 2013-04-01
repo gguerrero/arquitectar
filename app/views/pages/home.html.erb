@@ -2,13 +2,19 @@
   <div class="section-list">
     <ul>
       <li>
-        <%= link_to t('pages.home.values.title'), home_path(section: 'values') %>
+        <%= link_to t('pages.home.values.title'), 
+                    home_path(section: 'values'),
+                    class: current_section('values') %>
       </li>
       <li>
-        <%= link_to t('pages.home.team.title'), home_path(section: 'team') %>
+        <%= link_to t('pages.home.team.title'), 
+                    home_path(section: 'team'),
+                    class: current_section('team') %>
       </li>
         <li>
-        <%= link_to t('pages.home.city.title'), home_path(section: 'city') %>
+        <%= link_to t('pages.home.city.title'), 
+                    home_path(section: 'city'),
+                    class: current_section('city') %>
       </li>
     </ul>
   </div>

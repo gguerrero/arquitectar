@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @section = params[:section] || "values"
+    @section = params[:section] || "intro"
     @title = t("pages.home.#{@section}.title")
   end
 

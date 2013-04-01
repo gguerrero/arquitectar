@@ -41,7 +41,15 @@ a {
 
 a:hover {
   color: #662B00;
+  -moz-text-shadow: 0px 0px 5px #662B00;
+  -webkit-text-shadow: 0px 0px 5px #662B00;
   text-shadow: 0px 0px 5px #662B00;
+}
+
+a.current {
+  -moz-text-shadow: 0px 0px 5px;
+  -webkit-text-shadow: 0px 0px 5px;
+  text-shadow: 0px 0px 5px;
 }
 
 div#debug {

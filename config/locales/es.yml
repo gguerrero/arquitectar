@@ -16,6 +16,55 @@ es:
 
   pages:
     home:
+      intro:
+        title: "Introducción"
+        text: >
+          <p>
+          En su compromiso con la revitalización de la ciudad existente, 
+          <b style="color: #532A01;">arquitectar</b> impulsa la REnovación de 
+          edificios residenciales, espacios comunitarios, equipamientos, comercios...
+          </p>
+          <p>
+          Para ello, facilita la gestión de las ayudas a la <strong>rehabilitación 
+          de edificios</strong> para <strong>comunidades de propietarios</strong>. 
+          Proponemos un buen diagnóstico como base para establecer un Plan de Mejora, 
+          estableciendo prioridades en función de la necesidad y la capacidad económica 
+          del momento. Para ello, partimos de la <strong>Inspección Técnica de 
+          Edificios</strong>, que analiza: cimentación y estructura / cubierta y 
+          fachadas / aislamiento térmico / abastecimiento y evacuación de aguas, 
+          aunque con el objetivo de REconfortar, recomendamos la ITE+ (+ accesibilidad, 
+            + habitabilidad, + ventilación e iluminación natural, + confort térmico 
+            / ahorro energético, + eficiencia de las instalaciones, + confort acústico).
+          </p>
+          <p>
+          Potenciamos también el comercio urbano redactando proyectos de actividad, 
+          eliminando barreras arquitectónicas, realizando mejoras de imagen (proyectos 
+          de iluminación, nuevas distribuciones reutilizando el mobiliario existente), 
+          reformas de locales, <strong>interiorismo sostenible</strong> y optimizando 
+          recursos mediante <strong>auditorías energéticas</strong>. Éstas últimas 
+          permiten multiplicar la eficiencia de los equipamientos (colegios, oficinas, 
+            instalaciones deportivas, mercados…) también.
+          </p>
+          <p>
+          De igual modo, <b style="color: #532A01;">arquitectar</b> propicia la 
+          <strong>renovación de edificios</strong> por particulares en el entorno 
+          rural, ya que en muchas ocasiones se puede alargar la vida útil de la 
+          edificación a través de un cambio de uso. A la vista de las preexistencias, 
+          se pone en valor el patrimonio. Todo ello sin renunciar a las comodidades 
+          actuales y, según los requerimientos, es posible alcanzar una reducción del 
+          consumo de energía, agua y producción de residuos.
+          </p>
+          <p>
+          <b style="color: #532A01;">arquitectar</b> presta además 
+          <strong>asesoramiento técnico sobre sostenibilidad</strong>: termografías 
+          y diagnósticos, estrategias de diseño, eficiencia energética o certificación 
+          de edificios, así como formación y divulgación.
+          </p>
+          <p>
+          Nuestro radio de acción, con centro en <strong>Vitoria</strong>, alcanza: 
+          <strong>Bilbao-Bizkaia, Donostia-Gipuzkoa, Logroño-La Rioja, Pamplona-Navarra, 
+          Burgos</strong> e incluso <strong>Zaragoza</strong>.
+          </p>
       values:
         title: "Compromiso"
         text: >
@@ -61,6 +110,11 @@ es:
           de los años.</p>
           <hr>
           <h4>Principales integrantes</h4>
+          <div style="height:160px;padding:8px 0px;">
+          <div style="width:20%;float:left;">
+          <img class="round shadow border" src="/assets/members/arancha_guijarro_bustamante.png">
+          </div>
+          <div style="width:80%;float:left;">
           <h5>Arancha Guijarro Bustamante</h5>
           <p>Coordinadora y responsable de <b style="color: #532A01;">arquitectar</b>. 
           Arquitecto Técnico Superior en Edificación y Rehabilitación Sostenibles, 
@@ -68,6 +122,10 @@ es:
           <p>Convencida del valor intrínseco de la ciudad como espacio de convivencia, 
           promueve la consolidación del tejido urbano existente desde la actualización 
           de los edificios de vivienda.</p>
+          </div>
+          </div>
+          <div style="height:210px;padding:8px 0px;">
+          <div style="width:75%;float:left;">
           <h5>Juan José Barrón Guinea</h5>
           <p>Control económico, de Seguridad y Calidad. Con un estilo de comunicación 
           asequible y directo, propicia la buena marcha del proceso desde la primera 
@@ -76,11 +134,23 @@ es:
           <p>Su pasión por el proceso contructivo tiene como consecuencia lógica un 
           exhaustivo seguimiento de la obra y una capacidad de resolución de imprevistos 
           que agilizan el curso de los trabajos, haciendo fácil lo complicado.</p>
-          <h5>Luidi Diaz Hernando</h5>
+          </div>
+          <div style="width:20%;padding-left: 10px;float:left;">
+          <img class="round shadow border" src="/assets/members/juan_jose_barron_guinea.png">
+          </div>
+          </div>
+          <div style="height:160px;padding:8px 0px;">
+          <div style="width:22%;float:left;">
+          <img class="round shadow border" src="/assets/members/ludi_diaz_hernando.png">
+          </div>
+          <div style="width:78%;float:left;">
+          <h5>Ludi Diaz Hernando</h5>
           <p>Soporte humano indispensable en la gestión de la REnovación. Administrativo 
           con formación en Trabajo Social.</p>
           <p>Más allá de facilitar la información y tramitación de ayudas y subvenciones, 
           su capacidad de mediación es inestimable en aquellas Comunidades que lo requiran.</p>
+          </div>
+          </div>
           <h5>Asesoramiento Financiero</h5>
           <p>El componente económico a la hora de hacer frente a una obra de adecuación 
           se complejiza por las diferentes circunstancias de cada miembro de una Comunidad.</p>
