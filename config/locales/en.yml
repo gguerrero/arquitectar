@@ -23,6 +23,7 @@ en:
   name: "Arquitectar"
   version: "0.0.1"
   email: "estudio@arquitectar.net"
+  copyright: "Arquitectar S.L · All rights reserved · Designed by Guillermo Guerrero"
 
   header:
     values: "Values"
@@ -38,7 +39,7 @@ en:
       values:
         title: "Values"
         text: >
-          <p>In <b style="color: #630;">Arquitectar</b> we understand our profession 
+          <p>In <b style="color: #532A01;">Arquitectar</b> we understand our profession 
           as facilitators of the construction process, and we direct our efforts, 
           knowledge and experience to increase the quality of life of people.</p>
           <h4>Comforting</h4>
@@ -57,81 +58,79 @@ en:
       team:
         title: "Team"
         text: >
-          <p>Optimizamos aquellos aspectos del CONFORT mejorables: habitabilidad, 
-          iluminación y ventilación natural, el confort acústico, la calidad del 
-          aire interior, el confort térmico o la accesibilidad, seguridad estructural,</p>
-          <h4>Metodología</h4>
+          <p> We optimize those improvable aspects of COMFORT: livability, natural 
+          lighting and ventilation, acoustic comfort, indoor air quality, thermal 
+          comfort, structural safety and accessibility.</p>
+          <hr>
+          <h4>Methodology</h4>
           <ul>
-            <li>Un diagnóstico técnico correcto es la base que permite al usuario 
-            participar en la actualización de su casa.</li>
-            <li>Establecer un orden de prioridades, con una estimación de costes, 
-            nos posibilita contar con un Plan de Mejora ponderado.</li>
-            <li>Las propuestas surgen desde la relectura de las preexistencias,
-            bajo una nueva mirada según los requerimientos, y ponen en valor el 
-            patrimonio existente.</li>
+            <li>An appropiate technical analysis is the foundation that allows 
+            users to participate in the renovation of his house.</li>
+            <li>Establish priorities, with an estimate of costs, enables us to 
+            have a weighted Improvement Plan.</li>
+            <li>Proposals arise from a rereading of preexisting, under a new look 
+            as required, and place value on the existing assets.</li>
           </ul>
-          <h4>Equipo</h4>
-          <p>Formamos un conjunto multidisciplinar para ofrecer asesoramiento integral 
-          técnico, económico y humano, tanto desde arquitectar como a través de la 
-          red de colaboradores que hemos creado con el pasar de los años.</p>
-          <h4>Principales integrantes</h4>
+          <hr>
+          <h4>Team</h4>
+          <p>We are a multidisciplinary team for offering full technical, financial 
+          and human advice, both from <b style="color: #532A01;">arquitectar</b> as 
+          through the network of partners we have created with the passing of time.</p>
+          <hr>
+          <h4>Members</h4>
           <h5>Arancha Guijarro Bustamante</h5>
-          <p>Coordinadora y resoinsable de <b style="color: #663300;">arquitectar</b>. 
-          Arquitecto Técnico Superior en Edificación y Rehabilitación Sostenibles, 
-          Miembro de GBCe y divulgadora.</p>
-          <p>Convencida del valor intrínseco de la ciudad como espacio de convivencia, 
-          promueve la consolidación del tejido urbano existente desde la actualización 
-          de los edificios de vivienda.</p>
+          <p>CEO of <b style="color: #532A01;">arquitectar</b>. Higher degree in 
+          Architecture, master in Sustainable Rehabilitation, Member of GBCe and 
+          disseminator.</p>
+          <p>Convinced of the intrinsic value of the city as a living space, promotes 
+          the consolidation of existing urban fabric from updating residential buildings.</p>
           <h5>Juan José Barrón Guinea</h5>
-          <p>Control económico, de Seguridad y Calidad. Con un estilo de comunicación 
-          asequible y directo, propicia la buena marcha del proceso desde la primera 
-          reunión con la Propiedad. Aquitecto Técnico con 21 años de experiencia en 
-          rehabilitación.</p>
-          <p>Su pasión por el proceso contructivo tiene como consecuencia lógica un 
-          exhaustivo seguimiento de la obra y una capacidad de resolución de imprevistos 
-          que agilizan el curso de los trabajos, haciendo fácil lo complicado.</p>
-          <h5>Luidi Diaz Hernando</h5>
-          <p>Soporte humano indispensable en la gestión de la REnovación. Administrativo 
-          con formación en Trabajo Social.</p>
-          <p>Más allá de facilitar la información y tramitación de ayudas y subvenciones, 
-          su capacidad de mediación es inestimable en aquellas Comunidades que lo requiran.</p>
-          <h5>Asesoramiento Financiero</h5>
-          <p>El componente económico a la hora de hacer frente a una obra de adecuación 
-          se complejiza por las diferentes circunstancias de cada miembro de una Comunidad.</p>
-          <p><b style="color: #663300;">aquitectar</b> puede gestionar desde la 
-          tradicional solución del crédito, hasta el diseño de distintas alternativsa 
-          en función de la necesidad de cada caso.</p>
-          <h5>Puesta en Obra</h5>
-          <p>Además de la elaboración de proyectos y dirección de obras, 
-          <b style="color: #663300;">aquitectar</b> también gestiona las licencias 
-          necesarias, asi como con los colegios profesionales de arquitectos y 
-          aparejadores e incluso puede llegar a ofrecer la gestión de la construcción 
-          a fin de facilitar al cliente-promotor un "llave en mano" gracias a la 
-          colaboración con distintas constructoras con las que llevamos años trabajando, 
-          de garantía y confianza plena.</p>
+          <p>Accountant, Quality and Safety responsible. Affordable and direct 
+          communication stylish, promotes the smooth running of the process from 
+          the first meeting with the Property. Degree in Architecture with 21 
+          years experience in rehabilitation.</p>
+          <p>His passion for the builder process makes him to have a thorough 
+          monitoring of the work and an ability to solve unforeseen streamline 
+          the course of the work, making the complicated simple.</p>
+          <h5>Luidi Hernando Diaz</h5>
+          <p>Indispensable human support in managing the renovation. Administrative 
+          trained in social work.</p>
+          <p>Beyond providing information and processing of grants and subsidies, 
+          their mediation skills is invaluable in those communities that may require any.</p>
+          <h5>Financial Advice</h5>
+          <p>Economic component when dealing with a work of adaptation becomes more 
+          complex because the circumstances of each member of a community.</p>
+          <p><b style="color: #532A01;">aquitectar</b> can managed from the traditional 
+          credit solution to the design of different alternatives depending on the needs of each case.</p>
+          <h5>Commissioning work</h5>
+          <p>Addition to project development and construction management, 
+          <b style="color: #532A01;">aquitectar</b> also manages the necessary 
+          licenses, as well as with professional associations of architects and 
+          surveyors and can even go to provide construction management to facilitate 
+          customer-sponsor a "key" through collaboration with various construction 
+          companies with which we have spent years working full assurance and confidence.</p>
       city:
         title: "City"
         text: >
-          <p>Porque me gusta mi barrio, la relación con los vecinos, las tiendas 
-          de toda la vida… quiero vivir aquí.</p>
-          <p>Si las viviendas quedan obsoletas, el espacio público inhabitable, 
-          el comercio cierra, el tráfico y el parking anulan el espacio y el 
-          silencio; si el barrio se degrada sólo queda marcharse.</p>
-          <p>Son posibles multitud de pequeñas intervenciones vecinales; en 
-          <b style="color: #663300;">arquitectar</b> trabajamos por la 
-          REvitalización de la ciudad existente.<p>
-          <p><i style:"color: gray;">"la ciudad no es el problema: es la 
-          solución"</i>J. Lerner</p> 
-          <h4>Revitalización de barrios</h4>
+          <p>Because I like my neighborhood, my relations with neighbors, the whole
+          live stores... I want to live here.</p>
+          <p>If homes are obsolete, public space uninhabitable, closed trade, 
+          traffic and parking void space and silence, if the neighborhood degrades 
+          the only solution would be leaving.</p>
+          <p>In <b style="color: #532A01;">arquitectar</b> work for the 
+          revitalization of the existing city.</p>
+          <p><i style:"color: gray;">"The city is not the problem, but the 
+          solution"</i> J.Lerner</p> 
+          <h4>revitalization of neighborhoods</h4>
           <ul>
-            <li>áreas vulnerables</li>
-            <li>gentrificación</li>
+            <li>Vulnarable areas</li>
+            <li>gentrification</li>
           </ul>
-          <h4>“acupuntura urbana”
+          <h4>“urban acupuncture"</h4>
           <ul>
-            <li>recuperación de manzanas interiores</li>
-            <li>“basura por flores”</li>
-            <li>“la ciudad de los ciudadanos”</li>
+            <li>Inside areas restoring</li>
+            <li>“trash to flowers”</li>
+            <li>“the city of citiziens”</li>
           </ul>
     collaboration:
       title: "Collaboration"
@@ -148,7 +147,4 @@ en:
       intro:
     contact:
       title: "Contact"
-      intro:
-    about:
-      title: "About"
       intro:

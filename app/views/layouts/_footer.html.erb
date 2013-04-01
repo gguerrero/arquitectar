@@ -1,5 +1,5 @@
-<div id="footer" class="sticky">
-  <div id="footer-menu" class="round">
+<div id="footer" class="round shadow sticky">
+  <div id="footer-menu">
     <nav>
       <ul>
         <li>
@@ -8,10 +8,8 @@
         <li>
           <%= link_to t('footer.contact'), contact_path, class: "menubutton" %>
         </li>
-        <li>
-          <%= link_to t('footer.about'), about_path, class: "menubutton" %>
-        </li>
       </ul>
     </nav>
   </div>
+  <%= content_tag :div, t('copyright'), id: 'copyright' %>
 </div>

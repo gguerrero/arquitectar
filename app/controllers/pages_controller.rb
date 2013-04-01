@@ -15,8 +15,4 @@ class PagesController < ApplicationController
   def contact
     @title = t('pages.contact.title')
   end
-
-  def about
-    @title = t('pages.about.title')
-  end
 end

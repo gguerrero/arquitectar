@@ -1,4 +1,4 @@
-<div id="content" class="border round shadow sticky">
+<div id="content" class="round shadow sticky">
   <% flash.each do |key,value| %>
     <%= content_tag(:div, value, :class => "flash #{key}") %>
   <% end %>

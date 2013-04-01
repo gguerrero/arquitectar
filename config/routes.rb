@@ -12,7 +12,6 @@ Arquitectar::Application.routes.draw do
   get 'news' => 'pages#news'
   get 'collaboration' => 'pages#collaboration'
   get 'contact' => 'pages#contact'
-  get 'about' => 'pages#about'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
