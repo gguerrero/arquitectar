@@ -67,10 +67,11 @@ es:
           </p>
       values:
         title: "Compromiso"
-        text: >
-          <p>En <b style="color: #532A01;">Arquitectar</b> entendemos nuestra profesión 
-          como facilitadores del proceso constructivo, y dirigimos nuestro esfuerzo, 
+        summary: >
+          <p>En <b>Arquitectar</b> entendemos nuestra profesión como 
+          facilitadores del proceso constructivo, y dirigimos nuestro esfuerzo, 
           conocimiento y experiencia al incremento de la calidad de vida de las personas.</p>
+        text: >
           <h4>“REconfortar”</h4>
           <p>Más que rehabilitar, apostamos por la renovación, enlazando con la 
           tradición al alargar la vida útil de la edificación y reutilizar los elementos 
@@ -87,10 +88,15 @@ es:
           </ul>
       team:
         title: "Equipo"
-        text: >
+        summary: >
           <p>Optimizamos aquellos aspectos del CONFORT mejorables: habitabilidad, 
           iluminación y ventilación natural, el confort acústico, la calidad del 
           aire interior, el confort térmico o la accesibilidad, seguridad estructural,</p>
+        text: >
+          <p>Formamos un conjunto multidisciplinar para ofrecer asesoramiento integral 
+          técnico, económico y humano, tanto desde <b style="color: #532A01;">arquitectar
+          </b>como a través de la red de colaboradores que hemos creado con el pasar 
+          de los años.</p>
           <hr>
           <h4>Metodología</h4>
           <ul>
@@ -102,12 +108,6 @@ es:
             bajo una nueva mirada según los requerimientos, y ponen en valor el 
             patrimonio existente.</li>
           </ul>
-          <hr>
-          <h4>Equipo</h4>
-          <p>Formamos un conjunto multidisciplinar para ofrecer asesoramiento integral 
-          técnico, económico y humano, tanto desde <b style="color: #532A01;">arquitectar
-          </b>como a través de la red de colaboradores que hemos creado con el pasar 
-          de los años.</p>
           <hr>
           <h4>Principales integrantes</h4>
           <div style="height:160px;padding:8px 0px;">
@@ -151,13 +151,15 @@ es:
           su capacidad de mediación es inestimable en aquellas Comunidades que lo requiran.</p>
           </div>
           </div>
-          <h5>Asesoramiento Financiero</h5>
+          <hr>
+          <h4>Asesoramiento Financiero</h4>
           <p>El componente económico a la hora de hacer frente a una obra de adecuación 
           se complejiza por las diferentes circunstancias de cada miembro de una Comunidad.</p>
           <p><b style="color: #532A01;">aquitectar</b> puede gestionar desde la 
           tradicional solución del crédito, hasta el diseño de distintas alternativsa 
           en función de la necesidad de cada caso.</p>
-          <h5>Puesta en Obra</h5>
+          <hr>
+          <h4>Puesta en Obra</h4>
           <p>Además de la elaboración de proyectos y dirección de obras, 
           <b style="color: #532A01;">aquitectar</b> también gestiona las licencias 
           necesarias, asi como con los colegios profesionales de arquitectos y 
@@ -167,12 +169,13 @@ es:
           de garantía y confianza plena.</p>
       city:
         title: "Ciudad"
-        text: >
+        summary: >
           <p>Porque me gusta mi barrio, la relación con los vecinos, las tiendas 
           de toda la vida… quiero vivir aquí.</p>
           <p>Si las viviendas quedan obsoletas, el espacio público inhabitable, 
           el comercio cierra, el tráfico y el parking anulan el espacio y el 
           silencio; si el barrio se degrada sólo queda marcharse.</p>
+        text: >
           <p>Son posibles multitud de pequeñas intervenciones vecinales; en 
           <b style="color: #532A01;">arquitectar</b> trabajamos por la 
           REvitalización de la ciudad existente.<p>

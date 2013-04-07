@@ -1,0 +1,60 @@
+#home-sexy-kwicks {
+  width: 970px;
+  height: 100%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  cursor: pointer;
+
+  .kwicks {
+    margin: 0px auto;
+    
+    li {
+      float: left; // overridden by kwicks but good for when JavaScript is disabled
+      width: 323px;
+      height: 500px;
+
+      .panel-collapsed, .panel-expanded {
+
+        .panel-picture {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+        }
+
+        .panel-info {
+          color: #D5DEB8;
+          background-color: #532A01;
+          opacity: 0.80;
+          position: absolute;
+          bottom: 80px;
+          right: 0px;
+        }
+
+        .panel-label {
+          min-width: 160px;
+          padding: 10px 10px 10px 15px;
+        }
+
+        .panel-sumary {
+          opacity: 0;
+          width: 200px;
+          padding: 15px 15px 15px 20px;
+        }
+      }
+    }
+
+    li {
+      .panel-expanded  { opacity: 0; }
+      .panel-collapsed { opacity: 1; }
+    }
+
+    li.kwicks-expanded {
+      .panel-expanded  { opacity: 1; }
+      .panel-collapsed { opacity: 0; }
+    }
+  }
+}
+
+#home .extra-info {
+  padding: 30px 30px 25px 35px;
+}

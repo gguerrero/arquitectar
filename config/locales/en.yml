@@ -85,10 +85,11 @@ en:
           </p>
       values:
         title: "Values"
-        text: >
-          <p>In <b style="color: #532A01;">Arquitectar</b> we understand our profession 
+        summary: >
+          <p>In <b>Arquitectar</b> we understand our profession 
           as facilitators of the construction process, and we direct our efforts, 
           knowledge and experience to increase the quality of life of people.</p>
+        text: >
           <h4>Comforting</h4>
           <p>More than rehabilitate, we focus on the renewal, linking with tradition 
           by extending the useful life of the building and reuse items available while 
@@ -104,10 +105,14 @@ en:
           </ul>
       team:
         title: "Team"
-        text: >
-          <p> We optimize those improvable aspects of COMFORT: livability, natural 
+        summary: >
+          <p>We optimize those improvable aspects of COMFORT: livability, natural 
           lighting and ventilation, acoustic comfort, indoor air quality, thermal 
           comfort, structural safety and accessibility.</p>
+        text: >
+          <p>We are a multidisciplinary team for offering full technical, financial 
+          and human advice, both from <b style="color: #532A01;">arquitectar</b> as 
+          through the network of partners we have created with the passing of time.</p>
           <hr>
           <h4>Methodology</h4>
           <ul>
@@ -118,11 +123,6 @@ en:
             <li>Proposals arise from a rereading of preexisting, under a new look 
             as required, and place value on the existing assets.</li>
           </ul>
-          <hr>
-          <h4>Team</h4>
-          <p>We are a multidisciplinary team for offering full technical, financial 
-          and human advice, both from <b style="color: #532A01;">arquitectar</b> as 
-          through the network of partners we have created with the passing of time.</p>
           <hr>
           <h4>Members</h4>
           <div style="height:160px;padding:8px 0px;">
@@ -165,12 +165,14 @@ en:
           their mediation skills is invaluable in those communities that may require any.</p>
           </div>
           </div>
-          <h5>Financial Advice</h5>
+          <hr>
+          <h4>Financial Advice</h4>
           <p>Economic component when dealing with a work of adaptation becomes more 
           complex because the circumstances of each member of a community.</p>
           <p><b style="color: #532A01;">aquitectar</b> can managed from the traditional 
           credit solution to the design of different alternatives depending on the needs of each case.</p>
-          <h5>Commissioning work</h5>
+          <hr>
+          <h4>Commissioning work</h4>
           <p>Addition to project development and construction management, 
           <b style="color: #532A01;">aquitectar</b> also manages the necessary 
           licenses, as well as with professional associations of architects and 
@@ -179,12 +181,13 @@ en:
           companies with which we have spent years working full assurance and confidence.</p>
       city:
         title: "City"
-        text: >
+        summary: >
           <p>Because I like my neighborhood, my relations with neighbors, the whole
           live stores... I want to live here.</p>
           <p>If homes are obsolete, public space uninhabitable, closed trade, 
           traffic and parking void space and silence, if the neighborhood degrades 
           the only solution would be leaving.</p>
+        text: >
           <p>In <b style="color: #532A01;">arquitectar</b> work for the 
           revitalization of the existing city.</p>
           <p><i style:"color: gray;">"The city is not the problem, but the 

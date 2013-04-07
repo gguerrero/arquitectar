@@ -1,24 +1,7 @@
-<div id="home">
-  <div class="section-list">
-    <ul>
-      <li>
-        <%= link_to t('pages.home.values.title'), 
-                    home_path(section: 'values'),
-                    class: current_section('values') %>
-      </li>
-      <li>
-        <%= link_to t('pages.home.team.title'), 
-                    home_path(section: 'team'),
-                    class: current_section('team') %>
-      </li>
-        <li>
-        <%= link_to t('pages.home.city.title'), 
-                    home_path(section: 'city'),
-                    class: current_section('city') %>
-      </li>
-    </ul>
-  </div>
-  <div class="textbox">
-    <%= t("pages.home.#{@section}.text").html_safe %>
-  </div>
+<div id="home-sexy-kwicks">
+  <%= render 'home_sexy_kwicks' %>
+</div>
+
+<div id="home" class="panel round shadow">
+  <%= render 'home_extra_info' %>
 </div>
