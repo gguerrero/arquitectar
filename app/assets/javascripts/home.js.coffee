@@ -40,10 +40,6 @@ $(document).on 'page:load ready', ->
     easing: 'easeOutBounce'
     isVertical: false
 
-  $(".panel-item").mouseleave ->
-    section = $(this)[0].id
-    console.log "Leaving " + section
-
   $(".panel-item").mouseenter ->
     section = $(this)[0].id
 
