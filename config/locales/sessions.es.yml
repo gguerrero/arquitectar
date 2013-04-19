@@ -1,0 +1,18 @@
+es:
+  session:
+    signin: "Autenticación"
+    signout: "Salir"
+    username: "Nombre de usuario o Email"
+    password: "Contraseña"
+    enter: "Entrar"
+  users:
+    list: "Usuarios"
+    user: "Usuario"
+    new: "Usuario Nuevo"
+    account: "Cuenta"
+    name: "Nombre de usuario"
+    fullname: "Nombre completo"
+    email: "Email"
+    password: "Contraseña"
+    password_confirm: "Confirmar contraseña"
+    admin: "Administrador"

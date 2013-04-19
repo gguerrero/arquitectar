@@ -1,0 +1,18 @@
+en:
+  session:
+    signin: "Sign In"
+    signout: "Sign Out"
+    username: "Username or Email"
+    password: "Password"
+    enter: "Sign In"
+  users:
+    list: "Users"
+    user: "User"
+    new: "New User"
+    account: "Account"
+    name: "Username"
+    fullname: "Name"
+    email: "Email"
+    password: "Password"
+    password_confirm: "Password Confirmation"
+    admin: "Administrator"

@@ -18,5 +18,33 @@
         </ul>
       </nav>
     </div>
+    <div id="user-menu">
+    <% if signed_in? %>
+      <nav>
+        <ul>
+          <li>
+            <%= link_to gravatar_for(current_user, size: 24),
+                        edit_user_path(current_user) %>
+            <%= link_to current_user.name, 
+                        edit_user_path(current_user) %>
+          </li>
+          <li>|</li>
+          <li>
+            <%= link_to t('users.list'), users_path %>
+          </li>
+          <li>|</li>
+          <li>
+            <%= link_to t('session.signout'), signout_path, method: :delete %>
+          </li>
+        </ul>
+      </nav>
+    <% else %>
+      <nav>
+        <ul>
+          <li><%= link_to t('session.signin'), signin_path %></li>
+        </ul>
+      </nav>
+    <% end %>
+    </div>
   </div>
 </div>

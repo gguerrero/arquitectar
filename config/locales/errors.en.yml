@@ -1,0 +1,13 @@
+en:
+  activerecord:
+    errors:
+      header: "prohibited this %{record} from being saved"
+      messages:
+      models:
+        user:
+          attributes:
+            name:
+            email:
+            fullname:
+            password:
+            password_confirmation:

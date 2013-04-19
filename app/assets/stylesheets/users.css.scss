@@ -1,0 +1,113 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#signin-box {
+  width: 450px;
+  margin: 60px auto;
+  background-color: #EFF4DE;
+
+  #signin-title {}
+  #signin-body {}
+  #signin-submit { 
+    padding: 10px 0px;
+    text-align: center;
+    input.button { padding: 10px 20px; }
+  }
+}
+
+.user-list-content {
+  padding: 30px 50px;
+}
+
+.user-content {
+  float: left;
+  width: 100%;
+  margin: 0px auto;
+
+  #user-fields {
+    float: left;
+    width: 50%;
+    padding: 30px 50px;
+  }
+
+  #user-gravatar{
+    float: left;
+    width: 35%;
+    padding: 60px 0px;
+    border-left: 1px solid #630;
+    text-align: right;
+  }
+}
+
+#user-index-list {
+  margin: 15px 0px;
+
+  ul {
+    padding: 0px;
+    margin: 0px;
+
+    li.user-info {
+      margin: 15px 0px;
+      padding: 20px 15px;
+      min-height: 100px;
+      list-style-type: none;
+
+      border-top: 1px solid; 
+      border-left: 1px solid;
+      border-color: #532A01;
+
+      .user-gravatar {
+        float: left;
+        padding: 10px 20px;
+      }
+
+      .user-data {
+        float: left;
+        padding: 10px 20px;
+        color: #532A01;
+
+        .user-name {
+          font-size: 1.6em;
+          font-weight: bold;
+        }
+
+        a.alias {
+          font-size: 0.7em;
+          font-weight: normal;
+          color: #006c3b;
+
+          &:hover {
+            text-shadow: 0px 0px 1px;
+            text-decoration: underline;
+          }
+        }
+
+        .user-email {
+          font-size: 1.3em;
+          font-weight: normal;
+        }
+
+        .user-admin {
+          font-size: 1.2em;
+          font-weight: bold;
+          padding-top: 15px;
+        }
+      }
+
+      .user-actions {
+        float: right;
+        ul {
+          padding: 0px;
+          margin: 0px;
+
+          li.action {
+            padding: 0.2em;
+            list-style-type: none;
+            a { min-width: 55px; text-align: center; }
+          }
+        }
+      }
+    }
+  }
+}

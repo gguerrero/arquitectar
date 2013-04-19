@@ -1,0 +1,18 @@
+es:
+  activerecord:
+    models:
+      user: "Usuario"
+
+    attributes:
+      # Attributes names common to most models
+      created_at: "Creado a"
+      updated_at: "Actualizado a"
+
+      # Models
+      user:
+        name: "Nombre de usuario"
+        fullname: "Nombre completo"
+        email: "Email"
+        password: "Contraseña"
+        password_confirmation: "Confirmar contraseña"
+        admin: "¿Administrador?"

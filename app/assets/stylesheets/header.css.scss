@@ -15,7 +15,8 @@
   box-shadow: 0px 6px 18px #532A01;
 
   #header-content {
-    width: 1000px;
+    // width: 1000px;
+    padding: 0px 20px;
     height: 100%;
     margin: 0px auto;
 
@@ -72,6 +73,33 @@
       }
       
       a.menubutton:hover {
+        color: #F8FFDB;
+        text-shadow: 0px 0px 5px #F8FFDB;
+      }
+    }
+
+    div#user-menu {
+      padding: 25px 0px 0px 0px;
+      float: right;
+
+      nav ul {
+        padding: 0px;
+        margin: 0px;
+
+        li {
+          padding: 0px 2px;
+          list-style-type: none;
+          display: inline;
+        }
+      }
+
+      a {
+        font-size: 1.1em;
+        color: #D5DEB8;
+        text-decoration: none;
+      }
+      
+      a:hover {
         color: #F8FFDB;
         text-shadow: 0px 0px 5px #F8FFDB;
       }

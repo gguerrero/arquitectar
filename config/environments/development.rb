@@ -27,9 +27,9 @@ Arquitectar::Application.configure do
 
   # Console configuration
   console do
-    require 'pry'
+    # require 'pry'
+    # config.console = pry
     require 'hirb'
-    config.console = pry
     Hirb::View.enable
   end
 end

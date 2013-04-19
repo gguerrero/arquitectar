@@ -1,0 +1,42 @@
+es:
+  activerecord:
+    errors:
+      # The default format to use in full error messages.
+      format: "El campo %{attribute} %{message}"
+
+      # Heading for errors
+      header: "impidieron que %{record} fuera guardado."
+
+      # The values :model, :attribute and :value are always available for interpolation
+      # The value :count is available when applicable. Can be used for pluralization.
+      messages:
+        inclusion: "no esta incluido en la lista"
+        exclusion: "esta reservado"
+        invalid: "es inválido"
+        confirmation: "no coincide con %{attribute}"
+        accepted: "tiene que ser aceptado"
+        empty: "no puede estar vacío"
+        blank: "no puede estar en blanco"
+        present: "El campo %{attribute} tiene que estar en blanco"
+        too_long: "es muy largo (máximo %{count} caracteres permitidos)"
+        too_short: "es muy corto (mínimo %{count} caracteres permitidos)"
+        wrong_length: "tiene longitud incorrecta (deben ser %{count} caracteres)"
+        not_a_number: "no es númerico"
+        not_an_integer: "debe ser un entero"
+        greater_than: "tiene que ser mayor de %{count}"
+        greater_than_or_equal_to: "tiene que ser mayor o igual a %{count}"
+        equal_to: "tiene que ser igual a %{count}"
+        less_than: "tiene que ser menor de %{count}"
+        less_than_or_equal_to: "tiene que ser menor o igual a %{count}"
+        other_than: "tiene que ser distinto de %{count}"
+        odd: "tiene que ser par"
+        even: "tiene que ser impar"
+
+      models:
+        user:
+          attributes:
+            name:
+            email:
+            fullname:
+            password:
+            password_confirmation:
