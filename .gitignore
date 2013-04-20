@@ -16,4 +16,14 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+*.log
 /tmp
+
+# Documentation
+doc/api
+doc/app
+
+# Misc files
+*.swp
+*~ 
+.DS_Store

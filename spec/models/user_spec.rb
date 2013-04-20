@@ -1,5 +1,228 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  
+  before(:each) do
+    @attr = { name: "example.user",
+              email: "user@example.com",
+              fullname: "Example User",
+              password: "1Verylongpassword",
+              password_confirmation: "1Verylongpassword" }
+  end
+  
+  it "should create a new instance given valid attributes" do
+    User.create!(@attr)
+  end
+  
+  it "should require a name" do
+    no_name_user = User.new(@attr.merge(name: ''))
+    no_name_user.should_not be_valid
+  end
+  
+  it "should require an email address" do
+    no_email_user = User.new(@attr.merge(email: ''))
+    no_email_user.should_not be_valid
+  end
+  
+  it "should require a full name" do
+    no_email_user = User.new(@attr.merge(fullname: ''))
+    no_email_user.should_not be_valid
+  end
+
+  it "should reject name that are too short" do
+    short_name = "a" * 3
+    short_name_user = User.new(@attr.merge(name: short_name))
+    short_name_user.should_not be_valid
+  end
+
+  it "should reject name that are too long" do
+    long_name = "a" * 21
+    long_name_user = User.new(@attr.merge(name: long_name))
+    long_name_user.should_not be_valid
+  end
+
+  it "should reject invalid names" do
+    names = %w[k$3* ='1' ¿12{@}]
+    names.each do |name|
+      invalid_name_user = User.new(@attr.merge(name: name))
+      invalid_name_user.should_not be_valid
+    end
+  end
+
+  it "should reject duplicate names" do
+    User.create!(@attr)
+    user_with_duplicate_name = User.new(@attr)
+    user_with_duplicate_name.should_not be_valid
+  end
+
+  it "should reject names identical up to case" do
+    upcased_name = @attr[:name].upcase
+    User.create!(@attr.merge(name: upcased_name))
+    user_with_duplicate_name = User.new(@attr)
+    user_with_duplicate_name.should_not be_valid
+  end
+
+  it "should reject invalid email addresses" do
+    addresses = %w[user@foo,com user_at_foo.org example.user@foo.]
+    addresses.each do |address|
+      invalid_email_user = User.new(@attr.merge(:email => address))
+      invalid_email_user.should_not be_valid
+    end
+  end
+  
+  it "should reject duplicate email addresses" do
+    User.create!(@attr)
+    user_with_duplicate_email = User.new(@attr)
+    user_with_duplicate_email.should_not be_valid
+  end
+  
+  it "should reject email addresses identical up to case" do
+    upcased_email = @attr[:email].upcase
+    User.create!(@attr.merge(:email => upcased_email))
+    user_with_duplicate_email = User.new(@attr)
+    user_with_duplicate_email.should_not be_valid
+  end
+  
+  it "should reject full name that are too long" do
+    long_fullname = "a" * 41
+    long_fullname_user = User.new(@attr.merge(fullname: long_fullname))
+    long_fullname_user.should_not be_valid
+  end
+
+  describe "password validations" do
+    it "should require a password" do
+      user = User.new(@attr.merge(password: '', password_confirmation: ''))
+      user.should_not be_valid
+    end
+    
+    it "shuold require a matching password confirmation" do
+      user = User.new(@attr.merge(password_confirmation: 'invalid'))
+      user.should_not be_valid
+    end
+    
+    it "should reject short passwords" do
+      short = "a" * 5
+      attrs = @attr.merge(password: short, password_confirmation: short)
+      User.new(attrs).should_not be_valid
+    end
+    
+    it "should reject long passwords" do
+      long  = "a" * 41
+      attrs = @attr.merge(password: long, password_confirmation: long)
+      User.new(attrs).should_not be_valid
+    end
+  end
+  
+  describe "password encryption" do
+    
+    before(:each) do
+      @user = User.create!(@attr)
+    end
+    
+    it "should have an encrypted password attribute" do
+      @user.should respond_to :encrypted_password
+    end
+    
+    it "should set the encrypted password" do
+      @user.encrypted_password.should_not be_blank
+    end
+    
+    describe "has_password? method" do
+      
+      it "should be true if the password match" do
+        @user.has_password?(@attr[:password]).should be_true
+      end
+      
+      it "should be false if the password don't match" do
+        @user.has_password?("invalid").should be_false
+      end
+    end
+    
+    describe "authenticate method" do
+      
+      it "should return nil on email/password mismatch" do
+        wrong_password_user = User.authenticate(@attr[:email], "wrongpass")
+        wrong_password_user.should be_nil
+      end
+      
+      it "should return nil for an email address with no user" do
+        nonexistent_user = User.authenticate("bar@foo.com", @attr[:password])
+        nonexistent_user.should be_nil
+      end
+      
+      it "should return the user on email/password match" do
+        matching_user = User.authenticate(@attr[:email], @attr[:password])
+        matching_user.should == @user
+      end
+    end
+  end
+  
+  describe "admin attribute" do
+    
+    before(:each) do
+      @user = User.create!(@attr)
+    end
+    
+    it "should respond to admin" do
+      @user.should respond_to(:admin)
+    end
+
+    it "should not be an admin by default" do
+      @user.should_not be_admin
+    end
+    
+    it "should be convertible to an admin" do
+      @user.toggle!(:admin)
+      @user.should be_admin
+    end
+  end
+
+  describe "news associations" do
+    pending "add some examples to (or delete) #{__FILE__}"
+  #   before(:each) do
+  #     @user = User.create(@attr)
+  #     @mp1  = Factory(:micropost, :user => @user, :created_at => 1.day.ago)
+  #     @mp2  = Factory(:micropost, :user => @user, :created_at => 1.hour.ago)
+  #   end
+    
+  #   it "should have a mircroposts attribute" do
+  #     @user.should respond_to(:microposts)
+  #   end
+    
+  #   it "should have the right microposts in the right order" do
+  #     @user.microposts.should == [@mp2,@mp1]
+  #   end
+    
+  #   it "should destroy associated microposts" do
+  #     @user.destroy
+  #     [@mp1, @mp2].each do |micropost|
+  #       #Micropost.find_by_id(micropost.id).should be_nil
+  #       lambda do
+  #         Micropost.find(micropost.id)
+  #       end.should raise_error(ActiveRecord::RecordNotFound)
+  #     end
+  #   end
+    
+  #   describe "status feed" do
+      
+  #     it "should have a feed" do
+  #       @user.should respond_to(:feed)
+  #     end
+      
+  #     it "should include the user's micropost" do
+  #       @user.feed.include?(@mp1).should be_true
+  #       @user.feed.include?(@mp2).should be_true
+  #     end
+      
+  #     it "should not include a different user's microposts" do
+  #       mp3 = Factory(:micropost,
+  #                     :user => Factory(:user, :email => Factory.next(:email)))
+  #       @user.feed.include?(mp3).should be_false
+  #     end
+  #   end
+  end
+
+  describe "project associations" do
+    pending "add some examples to (or delete) #{__FILE__}"
+  end
 end

@@ -44,12 +44,14 @@ group :development do
   gem 'faker'
   gem 'pry'
   gem 'hirb'
+  gem 'meta_request'
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
   gem 'spork'
+  gem 'spork-rails', git: 'git://github.com/koriroys/spork-rails.git'
   gem 'factory_girl_rails'
 end
 
