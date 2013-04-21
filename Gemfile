@@ -18,8 +18,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'bluecloth', '>= 2.0.0'
-
+# Jquery tools
 gem 'jquery-rails'
 
 # Kwicks Sexy Slide Panels
@@ -31,6 +30,15 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
+
+# Articles tools
+gem 'bluecloth', '>= 2.0.0'
+# gem 'rmagick'
+# gem 'protected_attributes'
+gem 'acts-as-taggable-on',
+    git: "git://github.com/mbleigh/acts-as-taggable-on.git"
+gem "paperclip",
+    git: "git://github.com/thoughtbot/paperclip.git"
 
 # Global Recognized Avatar
 gem 'gravatar_image_tag'
