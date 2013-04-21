@@ -14,24 +14,6 @@ GIT
       rails (>= 3.0.0)
       spork (>= 1.0rc0)
 
-GIT
-  remote: git://github.com/mbleigh/acts-as-taggable-on.git
-  revision: 12246db1016e9e4ee785d394b2ee5fbb8b878ed4
-  specs:
-    acts-as-taggable-on (2.4.1.pre)
-      rails (>= 3, < 5)
-
-GIT
-  remote: git://github.com/thoughtbot/paperclip.git
-  revision: 7d807c6af3e89c56e2e846352074f2eac1620115
-  specs:
-    paperclip (3.4.1)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.0)
-      mime-types
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,12 +43,11 @@ GEM
       tzinfo (~> 0.3.33)
     arel (4.0.0.beta2)
     atomic (1.0.1)
+    better_errors (0.8.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
     bluecloth (2.2.0)
     builder (3.1.4)
-    climate_control (0.0.3)
-      activesupport (>= 3.0)
-    cocaine (0.5.1)
-      climate_control (>= 0.0.3, < 1.0)
     coderay (1.0.9)
     coffee-rails (4.0.0.beta1)
       coffee-script (>= 2.2.0)
@@ -193,7 +174,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts-as-taggable-on!
+  better_errors
   bluecloth (>= 2.0.0)
   coffee-rails (~> 4.0.0.beta1)
   factory_girl_rails
@@ -204,7 +185,6 @@ DEPENDENCIES
   jquery-rails
   jquery_kwicks_rails!
   meta_request
-  paperclip!
   pg
   pry
   rails (= 4.0.0.beta1)

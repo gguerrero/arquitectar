@@ -17,7 +17,7 @@ es:
         accepted: "tiene que ser aceptado"
         empty: "no puede estar vacío"
         blank: "no puede estar en blanco"
-        present: "El campo %{attribute} tiene que estar en blanco"
+        present: "tiene que estar en blanco"
         too_long: "es muy largo (máximo %{count} caracteres permitidos)"
         too_short: "es muy corto (mínimo %{count} caracteres permitidos)"
         wrong_length: "tiene longitud incorrecta (deben ser %{count} caracteres)"
@@ -31,12 +31,3 @@ es:
         other_than: "tiene que ser distinto de %{count}"
         odd: "tiene que ser par"
         even: "tiene que ser impar"
-
-      models:
-        user:
-          attributes:
-            name:
-            email:
-            fullname:
-            password:
-            password_confirmation:

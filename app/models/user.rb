@@ -21,6 +21,11 @@ class User < ActiveRecord::Base
 
   before_save :encrypt_password
 
+  has_many :created_articles, class_name: "Article",
+                              foreign_key: "created_by_id"
+  has_many :updated_articles, class_name: "Article",
+                              foreign_key: "updated_by_id"
+
   def has_password?(submitted_password)
     self.encrypted_password == encrypt(submitted_password)
   end

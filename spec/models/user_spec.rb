@@ -177,7 +177,7 @@ describe User do
     end
   end
 
-  describe "news associations" do
+  describe "article associations" do
     pending "add some examples to (or delete) #{__FILE__}"
   #   before(:each) do
   #     @user = User.create(@attr)

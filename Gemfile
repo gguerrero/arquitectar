@@ -35,10 +35,10 @@ gem 'jbuilder', '~> 1.0.1'
 gem 'bluecloth', '>= 2.0.0'
 # gem 'rmagick'
 # gem 'protected_attributes'
-gem 'acts-as-taggable-on',
-    git: "git://github.com/mbleigh/acts-as-taggable-on.git"
-gem "paperclip",
-    git: "git://github.com/thoughtbot/paperclip.git"
+# gem 'acts-as-taggable-on',
+#     git: "git://github.com/mbleigh/acts-as-taggable-on.git"
+# gem "paperclip",
+#     git: "git://github.com/thoughtbot/paperclip.git"
 
 # Global Recognized Avatar
 gem 'gravatar_image_tag'
@@ -52,6 +52,7 @@ group :development do
   gem 'faker'
   gem 'pry'
   gem 'hirb'
+  gem 'better_errors'
   gem 'meta_request'
 end
 

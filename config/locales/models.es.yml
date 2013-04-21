@@ -16,3 +16,7 @@ es:
         password: "Contraseña"
         password_confirmation: "Confirmar contraseña"
         admin: "¿Administrador?"
+
+    types:
+      news: "Actualidad"
+      project: "Proyecto"

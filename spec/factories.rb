@@ -7,6 +7,18 @@ FactoryGirl.define do
     user.password              "1Verylongpassword"
     user.password_confirmation "1Verylongpassword"
   end
+
+  factory :type do |type|
+    type.name "Foo bar"
+    type.description "Foo bar zoo"
+    # type.association :article
+  end
+
+  factory :article do |article|
+    article.title "Lorem Ipsum"
+    article.content "Lorem Ipsum Foo Bar"
+    # article.association :created_by, :user
+  end
 end
 
 FactoryGirl.sequences do
@@ -14,9 +26,3 @@ FactoryGirl.sequences do
     "user-#{n}@example.org"
   end
 end
-
-# FactoryGirl.define :news do |news|
-#   news.title "Foo bar"
-#   news.content "Foo bar zoo"
-#   news.association :user
-# end
