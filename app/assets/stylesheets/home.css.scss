@@ -1,17 +1,18 @@
 #home-sexy-kwicks {
   width: 970px;
-  height: 100%;
+  height: 500px;
   margin: 0px auto;
   padding: 20px 0px;
   cursor: pointer;
 
   .kwicks {
     margin: 0px auto;
+    height: 100%;
     
     li {
       float: left; // overridden by kwicks but good for when JavaScript is disabled
       width: 323px;
-      height: 500px;
+      height: 100%;
 
       .panel-collapsed, .panel-expanded {
 

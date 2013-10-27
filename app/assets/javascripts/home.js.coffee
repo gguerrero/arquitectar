@@ -32,7 +32,6 @@
 
 $(document).on 'page:load ready', ->
   $('#home-sexy-kwicks .kwicks').kwicks
-    size: 323
     maxSize: 900 # That is minSize = (((323*3)-900) / (nPanels-1))
     spacing: 0
     duration: 1200
@@ -40,7 +39,7 @@ $(document).on 'page:load ready', ->
     easing: 'easeOutBounce'
     isVertical: false
 
-  $(".panel-item").mouseenter ->
+  $(".kwicks-panel").mouseenter ->
     section = $(this)[0].id
 
     $(".panel-sumary", this).css "opacity", 0

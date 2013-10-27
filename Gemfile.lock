@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/gguerrero/jquery_kwicks_rails.git
-  revision: 585c9dbc394f4929d352aa4f5638d6feb7c28ae5
-  specs:
-    jquery_kwicks_rails (0.0.3)
-      jquery-rails (>= 2.0.2)
-      rails (>= 3.1)
-
-GIT
   remote: git://github.com/koriroys/spork-rails.git
   revision: 355a354e9de328e86a9f3fe306f243745950a7d1
   specs:
@@ -76,6 +68,9 @@ GEM
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery_kwicks_rails (2.2.0)
+      jquery-rails (>= 2.0.2)
+      rails (>= 3.1)
     json (1.7.7)
     libv8 (3.11.8.13)
     mail (2.5.3)
@@ -115,7 +110,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.17.0, < 2.0)
-    rake (10.0.4)
+    rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.2)
@@ -176,20 +171,20 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   bluecloth (>= 2.0.0)
-  coffee-rails (~> 4.0.0.beta1)
+  coffee-rails
   factory_girl_rails
   faker
   gravatar_image_tag
   hirb
   jbuilder (~> 1.0.1)
   jquery-rails
-  jquery_kwicks_rails!
+  jquery_kwicks_rails
   meta_request
   pg
   pry
-  rails (= 4.0.0.beta1)
+  rails
   rspec-rails
-  sass-rails (~> 4.0.0.beta1)
+  sass-rails
   spork
   spork-rails!
   sqlite3

@@ -1,6 +1,6 @@
-<ul class='kwicks'>
-  
-  <li id="values" class="panel-item soft-round soft-shadow">
+<%= kwicks do %>
+
+  <%= kwicks_panel(id: 'values', class: 'soft-round soft-shadow') do %>
     <div class="panel-expanded">
       <div class="panel-picture">
         <%= image_tag "architecture/architecture06.jpg" %>
@@ -18,9 +18,9 @@
         <%= content_tag :h1, t('pages.home.values.title') %>
       </div>
     </div>
-  </li>
+  <% end %>
 
-  <li id="team" class="panel-item soft-round soft-shadow">
+  <%= kwicks_panel(id: 'team', class: 'soft-round soft-shadow') do %>
     <div class="panel-expanded">
       <div class="panel-picture">
         <%= image_tag "architecture/architecture04.jpg" %>
@@ -38,9 +38,9 @@
         <%= content_tag :h1, t('pages.home.team.title') %>
       </div>
     </div>
-  </li>
+  <% end %>
 
-  <li id="city" class="panel-item soft-round soft-shadow">
+  <%= kwicks_panel(id: 'city', class: 'soft-round soft-shadow') do %>
     <div class="panel-expanded">
       <div class="panel-picture">
         <%= image_tag "architecture/architecture03.jpg" %>
@@ -58,6 +58,6 @@
         <%= content_tag :h1, t('pages.home.city.title') %>
       </div>
     </div>
-  </li>
-  
-</ul>
+  <% end %>
+
+<% end %>
